@@ -11,7 +11,6 @@ class Api {
 
     // Write your logic here
     router.post('/text', (Request request) async {
-      print('object');
       return Response.ok('you are kek');
     });
     //router.get('/txt', () => 'I am a lol');
