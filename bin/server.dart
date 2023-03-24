@@ -9,5 +9,5 @@ void main() async {
   final home = Api();
   var server = await shelf_io.serve(home.handler, '0.0.0.0', port);
 
-  print('Serving @@@@ at http://${server.address.host}:${server.port}');
+  print('Serving at http://${server.address.host}:${server.port}');
 }
