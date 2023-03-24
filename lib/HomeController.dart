@@ -11,13 +11,13 @@ class Api {
 
     // Write your logic here
     router.post('/text', (Request request) async {
-      print('post text gg');
+      print('post text kek');
       return Response.ok('you are kek');
     });
     //router.get('/txt', () => 'I am a lol');
 
     router.get('/txt', (Request request) {
-      print('post txt gg');
+      print('post txt lol');
       return Response.ok('I am a lol');
     });
 
